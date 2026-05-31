@@ -518,6 +518,35 @@
     line-height: 1.45;
   }
 
+  /* GALLERY */
+  .gallery-strip {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 180px;
+    gap: 14px;
+    margin-top: 14px;
+  }
+  .gallery-strip figure { margin: 0; position: relative; overflow: hidden; border-radius: 8px; background: var(--sand-soft); }
+  .gallery-strip figure img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s ease; }
+  .gallery-strip figure:hover img { transform: scale(1.04); }
+  .gallery-strip figure figcaption {
+    position: absolute; left: 12px; bottom: 10px; right: 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 11.5px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    letter-spacing: .02em;
+    font-weight: 500;
+  }
+  .gallery-strip .g-wide { grid-column: span 6; grid-row: span 2; }
+  .gallery-strip .g-tall { grid-column: span 3; grid-row: span 2; }
+  .gallery-strip .g-square { grid-column: span 3; }
+  .gallery-strip .g-half { grid-column: span 6; }
+  @media (max-width: 720px) {
+    .gallery-strip { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 160px; }
+    .gallery-strip .g-wide, .gallery-strip .g-tall, .gallery-strip .g-square, .gallery-strip .g-half { grid-column: span 2; grid-row: span 1; }
+  }
+
   /* CONTACT */
   .contact-grid {
     display: grid;
@@ -651,8 +680,8 @@
         <span>BOIB núm. 56<br>2 maig 2026</span>
       </div>
       <div>
-        <strong>Web</strong>
-        <span><a href="https://carmenmoles.com" target="_blank" rel="noopener">carmenmoles.com</a></span>
+        <strong>Instagram</strong>
+        <span><a href="https://instagram.com/carmen_moles_" target="_blank" rel="noopener">@carmen_moles_</a></span>
       </div>
     </div>
 
@@ -787,6 +816,40 @@
       </article>
 
     </div>
+  </div>
+</section>
+
+<!-- GALLERY — Treball amb equips i alumnat -->
+<section id="en-accio">
+  <div class="section-header">
+    <span class="section-num">· En acció</span>
+    <h2>Treball amb equips, alumnat i docents</h2>
+  </div>
+  <p class="intro">
+    Aula d'Emprenedoria, sessions de facilitació amb professorat, Hackathon Innova FP i activitats de difusió del talent emprenedor al centre. Innovació amb les mans, sempre.
+  </p>
+
+  <div class="gallery-strip">
+    <figure class="g-wide">
+      <img src="img/aula/aula1.jpg" alt="Carmen Moles amb alumnat a l'Aula d'Emprenedoria de l'IES Marc Ferrer" loading="lazy" />
+      <figcaption>Aula d'Emprenedoria · IES Marc Ferrer · sessió amb alumnat</figcaption>
+    </figure>
+    <figure class="g-tall">
+      <img src="img/aula/aula5.jpg" alt="Sessió de LEGO Serious Play amb docents" loading="lazy" />
+      <figcaption>LEGO Serious Play amb docents</figcaption>
+    </figure>
+    <figure class="g-tall">
+      <img src="img/aula/aula3.jpg" alt="Sessió de facilitació" loading="lazy" />
+      <figcaption>Facilitació · escolta activa</figcaption>
+    </figure>
+    <figure class="g-half">
+      <img src="img/hackathon/guanyadors.jpeg" alt="Hackathon Innova FP — equips guanyadors" loading="lazy" />
+      <figcaption>Hackathon Innova FP · CFINFP-IB · equips guanyadors</figcaption>
+    </figure>
+    <figure class="g-half">
+      <img src="img/aula/showcase.png" alt="Alumnat de l'Aula d'Emprenedoria a una jornada de difusió" loading="lazy" />
+      <figcaption>Alumnat de l'Aula presentant a una jornada de difusió</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -1080,7 +1143,7 @@
     </div>
     <div>
       <h4>Identificadors acadèmics</h4>
-      <p style="font-size: 14px; margin: 0;">ORCID 0009-0007-8528-1858<br><a href="https://carmenmoles.com" target="_blank" rel="noopener">carmenmoles.com</a></p>
+      <p style="font-size: 14px; margin: 0;">ORCID 0009-0007-8528-1858<br><a href="https://instagram.com/carmen_moles_" target="_blank" rel="noopener">Instagram @carmen_moles_</a></p>
     </div>
   </div>
 </section>
@@ -1264,8 +1327,8 @@
       <p>IES Marc Ferrer<br>Sant Francesc de Formentera</p>
     </div>
     <div>
-      <h4>Web</h4>
-      <p><a href="https://carmenmoles.com" target="_blank" rel="noopener">carmenmoles.com</a></p>
+      <h4>Instagram</h4>
+      <p><a href="https://instagram.com/carmen_moles_" target="_blank" rel="noopener">@carmen_moles_</a></p>
     </div>
   </div>
 </section>
@@ -1282,7 +1345,7 @@
       <h4>Carmen Maria Moles Moles</h4>
       <p>Professora d'FP · IES Marc Ferrer (Formentera)</p>
       <p style="margin-top: 8px;"><a href="mailto:lesmoes@gmail.com">lesmoes@gmail.com</a></p>
-      <p style="margin-top: 4px;"><a href="https://carmenmoles.com" target="_blank" rel="noopener">carmenmoles.com</a></p>
+      <p style="margin-top: 4px;"><a href="https://instagram.com/carmen_moles_" target="_blank" rel="noopener">Instagram @carmen_moles_</a></p>
     </div>
     <div>
       <h4>Marc legal</h4>
