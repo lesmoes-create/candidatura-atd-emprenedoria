@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Carmen Maria Moles · ATD Application — Entrepreneurship · CEP400302-11</title>
+<meta name="description" content="Application of Carmen Maria Moles Moles for the secondment to Technical Teaching Advisor in entrepreneurship at CFINFP-IB, the Vocational Education and Training Teacher Centre of the Balearic Islands (BOIB no. 56, 2 May 2026). Position CEP400302-11." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --arena: #F7EFE5;
+    --crema: #F5F1EA;
+    --sand: #D8C3A5;
+    --sand-soft: #E8DCC7;
+    --ivy: #2D3B2D;
+    --olive: #4A5A3A;
+    --raspberry: #8C0037;
+    --watermelon: #FF4F7A;
+    --orange: #F28C48;
+    --lemon: #FFCD7C;
+    --royal: #1E4F8C;
+    --line: #C9B89C;
+    --muted: #6F6354;
+    --max: 1120px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--arena);
+    color: var(--ivy);
+    font-family: "Fraunces", Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--lemon); color: var(--ivy); }
+  a { color: var(--raspberry); text-decoration: none; border-bottom: 1px solid rgba(140,0,55,.25); transition: all .2s ease; }
+  a:hover { color: var(--watermelon); border-bottom-color: var(--watermelon); }
+  img { max-width: 100%; display: block; }
+
+  /* TOP STRIP — institutional band */
+  .institutional {
+    background: #ffffff;
+    border-bottom: 1px solid var(--line);
+    padding: 14px 0;
+  }
+  .institutional .wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  .institutional img { height: 46px; width: auto; }
+  .institutional .right { font-family: "Inter", sans-serif; font-size: 12.5px; color: var(--muted); letter-spacing: .02em; text-align: right; }
+  .institutional .right strong { color: var(--ivy); font-weight: 600; display: block; }
+
+  /* NAV */
+  nav.top {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(247, 239, 229, 0.92);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav.top .wrap {
+    max-width: var(--max); margin: 0 auto; padding: 14px 28px;
+    display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  }
+  nav.top .brand {
+    font-family: "Caveat", cursive; font-size: 22px; color: var(--raspberry); font-weight: 600;
+  }
+  nav.top ul {
+    list-style: none; padding: 0; margin: 0;
+    display: flex; gap: 22px; flex-wrap: wrap;
+    font-family: "Inter", sans-serif; font-size: 13.5px; font-weight: 500;
+  }
+  nav.top ul a {
+    color: var(--ivy); border: 0; padding-bottom: 2px; border-bottom: 1px solid transparent;
+  }
+  nav.top ul a:hover { color: var(--raspberry); border-bottom-color: var(--raspberry); }
+  nav.top .lang {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  nav.top .lang a {
+    color: var(--muted);
+    padding: 4px 10px;
+    border: 1px solid var(--line);
+    border-right: 0;
+  }
+  nav.top .lang a:first-child { border-radius: 4px 0 0 4px; }
+  nav.top .lang a:last-child { border-radius: 0 4px 4px 0; border-right: 1px solid var(--line); }
+  nav.top .lang a.active {
+    background: var(--raspberry);
+    color: var(--arena);
+    border-color: var(--raspberry);
+  }
+  nav.top .lang a:hover:not(.active) { background: var(--sand-soft); color: var(--raspberry); }
+  nav.top .nav-right { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+
+  /* HERO */
+  header.hero {
+    padding: 80px 28px 60px;
+    max-width: var(--max);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  header.hero .hero-text { min-width: 0; }
+  header.hero .hero-photo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header.hero .hero-photo .photo-frame {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    aspect-ratio: 4 / 5;
+    background:
+      linear-gradient(135deg, rgba(140, 0, 55, 0.08) 0%, rgba(247, 239, 229, 0) 60%),
+      var(--sand-soft);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px -30px rgba(45, 59, 45, 0.35);
+  }
+  header.hero .hero-photo .photo-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('img/carmen.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  header.hero .hero-photo .badge {
+    position: absolute;
+    bottom: -14px;
+    left: -14px;
+    background: var(--raspberry);
+    color: var(--arena);
+    font-family: "Caveat", cursive;
+    font-size: 22px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px -8px rgba(140, 0, 55, 0.5);
+    line-height: 1;
+  }
+  @media (max-width: 900px) {
+    header.hero {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    header.hero .hero-photo .photo-frame { max-width: 280px; margin: 0 auto; }
+  }
+  .pill {
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--raspberry);
+    background: var(--sand-soft);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+  h1.title {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: clamp(40px, 6vw, 68px);
+    line-height: 1.05;
+    margin: 0 0 18px;
+    letter-spacing: -.02em;
+  }
+  h1.title em {
+    font-family: "Caveat", cursive;
+    font-style: normal;
+    color: var(--raspberry);
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+  .hero .lead {
+    font-size: 21px;
+    line-height: 1.55;
+    color: var(--olive);
+    max-width: 760px;
+    margin: 0 0 36px;
+  }
+  .hero .meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px;
+    padding: 24px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    margin-top: 30px;
+  }
+  .hero .meta div {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+  }
+  .hero .meta strong {
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .12em;
+    color: var(--muted);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .hero .meta span { color: var(--ivy); font-weight: 500; }
+  .cta-row {
+    margin-top: 28px;
+    display: flex; gap: 14px; flex-wrap: wrap;
+  }
+  .btn {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 22px;
+    border-radius: 6px;
+    border: 1px solid var(--raspberry);
+    color: var(--raspberry);
+    background: transparent;
+    transition: all .2s ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn:hover { background: var(--raspberry); color: var(--arena); }
+  .btn.primary {
+    background: var(--raspberry);
+    color: var(--arena);
+  }
+  .btn.primary:hover { background: var(--watermelon); border-color: var(--watermelon); }
+
+  /* SECTIONS */
+  section {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 70px 28px;
+  }
+  section + section { border-top: 1px solid var(--line); }
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+  }
+  .section-num {
+    font-family: "Caveat", cursive;
+    color: var(--raspberry);
+    font-size: 32px;
+    line-height: 1;
+  }
+  h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.15;
+    margin: 0;
+    letter-spacing: -.015em;
+  }
+  h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 0 10px;
+    line-height: 1.25;
+  }
+  h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  p { margin: 0 0 14px; }
+  .intro {
+    font-size: 19px;
+    line-height: 1.6;
+    color: var(--olive);
+    max-width: 760px;
+    margin-bottom: 36px;
+  }
+
+  /* PILLARS GRID (résumé) */
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .pillar {
+    background: var(--crema);
+    border-left: 3px solid var(--raspberry);
+    padding: 26px 28px;
+    border-radius: 0 8px 8px 0;
+  }
+  .pillar .num {
+    font-family: "Caveat", cursive;
+    color: var(--raspberry);
+    font-size: 28px;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .pillar h3 { font-size: 19px; margin-bottom: 8px; }
+  .pillar p { font-size: 15px; line-height: 1.55; color: var(--olive); margin: 0; }
+
+  /* CARD GRID — trajectoria */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 28px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px -12px rgba(45, 59, 45, 0.2); }
+  .card .img {
+    aspect-ratio: 16 / 9;
+    background: var(--sand-soft);
+    background-size: cover;
+    background-position: center;
+  }
+  .card .body { padding: 22px 24px 24px; }
+  .card .tag {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--raspberry);
+    margin-bottom: 8px;
+  }
+  .card .links {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 13.5px;
+  }
+  .card .links a {
+    border-bottom: 1px dotted var(--raspberry);
+  }
+  .card p { font-size: 15px; line-height: 1.55; color: var(--olive); margin: 0; }
+  .card .meta-line {
+    font-family: "Inter", sans-serif;
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-top: 14px;
+    letter-spacing: .03em;
+  }
+
+  /* QUOTE */
+  blockquote {
+    margin: 50px 0;
+    padding: 28px 32px;
+    background: var(--sand-soft);
+    border-left: 4px solid var(--raspberry);
+    border-radius: 0 8px 8px 0;
+    font-family: "Caveat", cursive;
+    font-size: 28px;
+    line-height: 1.3;
+    color: var(--ivy);
+  }
+  blockquote cite {
+    display: block;
+    margin-top: 14px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* DOCS TABLE */
+  .doc-group { margin-top: 30px; }
+  .doc-group h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--raspberry);
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  .doc-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 8px 32px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  .doc-list a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px dashed transparent;
+    color: var(--ivy);
+  }
+  .doc-list a:hover { color: var(--raspberry); border-bottom-color: var(--raspberry); }
+  .doc-list a::before {
+    content: "↳";
+    color: var(--raspberry);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  /* PRESS LIST */
+  .press {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  .press li {
+    padding: 18px 22px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .press .src {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    color: var(--raspberry);
+    flex-shrink: 0;
+  }
+  .press .ttl {
+    font-family: "Fraunces", serif;
+    font-size: 17px;
+    color: var(--ivy);
+    flex: 1;
+    min-width: 220px;
+  }
+  .press .date { font-family: "Inter", sans-serif; font-size: 12.5px; color: var(--muted); }
+  .press a.read { font-family: "Inter", sans-serif; font-size: 13px; font-weight: 600; color: var(--raspberry); }
+
+  /* FOOTER */
+  footer {
+    background: var(--ivy);
+    color: var(--arena);
+    padding: 60px 28px 40px;
+    margin-top: 80px;
+  }
+  footer .wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 40px;
+  }
+  footer h4 { color: var(--lemon); }
+  footer p, footer a { color: var(--arena); font-family: "Inter", sans-serif; font-size: 14px; }
+  footer a { border-bottom: 1px solid rgba(247, 239, 229, 0.35); }
+  footer a:hover { color: var(--lemon); border-bottom-color: var(--lemon); }
+  footer .credit {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(247, 239, 229, 0.18);
+    font-size: 12.5px;
+    color: rgba(247, 239, 229, 0.65);
+    max-width: var(--max);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* GALLERY */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 30px;
+  }
+  .gallery img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  /* DATA BLOCK */
+  .data-block {
+    background: var(--ivy);
+    color: var(--arena);
+    border-radius: 12px;
+    padding: 36px 38px;
+    margin: 40px 0;
+  }
+  .data-block h3 {
+    color: var(--lemon);
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    margin-bottom: 18px;
+  }
+  .data-block .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 28px;
+    margin-top: 20px;
+  }
+  .data-block .stat {
+    border-left: 2px solid var(--watermelon);
+    padding-left: 16px;
+  }
+  .data-block .stat .num {
+    font-family: "Fraunces", serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--lemon);
+    margin-bottom: 6px;
+  }
+  .data-block .stat .lbl {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: var(--arena);
+    line-height: 1.4;
+  }
+
+  /* TIMELINE */
+  .timeline { position: relative; padding-left: 28px; margin: 36px 0; }
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px; top: 6px; bottom: 6px;
+    width: 2px;
+    background: var(--sand);
+  }
+  .timeline-item { position: relative; padding: 0 0 28px 28px; }
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -7px; top: 8px;
+    width: 16px; height: 16px;
+    background: var(--raspberry);
+    border-radius: 50%;
+    border: 3px solid var(--arena);
+  }
+  .timeline-item .year {
+    font-family: "Caveat", cursive;
+    color: var(--raspberry);
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .timeline-item h4 {
+    font-family: "Fraunces", serif;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--ivy);
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .timeline-item p {
+    font-size: 14.5px;
+    color: var(--olive);
+    margin: 0;
+  }
+
+  @media (max-width: 720px) {
+    section { padding: 50px 22px; }
+    header.hero { padding: 50px 22px 40px; }
+    footer .wrap { grid-template-columns: 1fr; }
+    .gallery { grid-template-columns: repeat(2, 1fr); }
+    blockquote { font-size: 22px; padding: 22px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- INSTITUTIONAL HEADER -->
+<div class="institutional">
+  <div class="wrap">
+    <div style="display: flex; align-items: center; gap: 28px; flex-wrap: wrap;">
+      <img src="img/logos/conselleria.png" alt="Conselleria d'Educació i Universitats — Govern de les Illes Balears" />
+      <img src="img/logos/fp_balears.png" alt="Formació Professional Illes Balears" />
+    </div>
+    <div class="right">
+      <strong>ATD Call · CFINFP-IB</strong>
+      Official Gazette BOIB no. 56, 2 May 2026<br>
+      Position CEP400302-11
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="top">
+  <div class="wrap">
+    <div class="brand">Carmen Moles · ATD Entrepreneurship</div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="#resum">Summary</a></li>
+        <li><a href="#trajectoria">Track record</a></li>
+        <li><a href="#projectes">Projects</a></li>
+        <li><a href="#formacio">Education</a></li>
+        <li><a href="#premsa">Press</a></li>
+        <li><a href="#documents">Documents</a></li>
+      </ul>
+      <div class="lang">
+        <a href="index.html">CAT</a>
+        <a href="index-es.html">ES</a>
+        <a href="index-en.html" class="active">EN</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-text">
+  <span class="pill">Application · CEP400302-11 · Entrepreneurship</span>
+  <h1 class="title">
+    Carmen Maria Moles Moles<br>
+    <em>Vocational Education · Innovation · Entrepreneurship · AI · Equity</em>
+  </h1>
+  <p class="lead">
+    VET teacher at IES Marc Ferrer (Formentera, Balearic Islands). I am applying for the secondment as <strong>Technical Teaching Advisor in entrepreneurship at CFINFP-IB</strong>: five years coordinating the Entrepreneurship Hub, mentoring the Innova FP 2026 Hackathon, opening keynote at the Emprèn FP 18N Conference, design and delivery of the AI course for the Administration and Management VET family, Triple A and Open Lab Insular projects (CaixaBank Dualiza), Balears Digital Boost (ESF+), and a Working Paper accepted by Cedefop for 2028.
+  </p>
+
+  <div class="meta">
+    <div>
+      <strong>Position</strong>
+      <span>CEP400302-11<br>Teaching Advisor · Entrepreneurship</span>
+    </div>
+    <div>
+      <strong>Host institution</strong>
+      <span>CFINFP-IB · VET Teacher Centre<br>Ministry of Education, Balearic Islands</span>
+    </div>
+    <div>
+      <strong>Call</strong>
+      <span>BOIB no. 56<br>2 May 2026</span>
+    </div>
+    <div>
+      <strong>Legal basis</strong>
+      <span>Article 90.2 Law 1/2022<br>Instruction 7, Annex 2</span>
+    </div>
+  </div>
+
+  <div class="cta-row">
+    <a class="btn primary" href="docs/02_memoria/01_Memoria_ATD_CarmenMoles_CEP400302-11.pdf" target="_blank" rel="noopener">Official Report (Annex 3)</a>
+    <a class="btn" href="docs/03_cv_carta/01_CV_Carmen_Moles_2026.pdf" target="_blank" rel="noopener">Full CV</a>
+    <a class="btn" href="docs/03_cv_carta/02_Carta_Motivacio_Carmen_Moles.pdf" target="_blank" rel="noopener">Cover letter</a>
+  </div>
+  </div><!-- /.hero-text -->
+  <div class="hero-photo">
+    <div class="photo-frame"></div>
+    <div class="badge">Carmen Moles</div>
+  </div>
+</header>
+
+<!-- RESUM EXECUTIU -->
+<section id="resum">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <h2>Three pillars supporting this application</h2>
+  </div>
+  <p class="intro">
+    This is not a list. It is a technical and pedagogical argument: the CEP400302-11 position calls for someone able to combine the full Hackathon cycle, a network of entrepreneurship coordinators, and VET funding calls.
+  </p>
+
+  <div class="pillars">
+    <div class="pillar">
+      <div class="num">01</div>
+      <h3>Documented practice in the system</h3>
+      <p>Five years of direct practice at IES Marc Ferrer: Entrepreneurship Hub, Triple A project (the only Balearic centre selected for CaixaBank Dualiza), Innova FP 2026 Hackathon, Emprèn FP 18N Conference, AI course at CFINFP-IB. Every claim is backed by documentation.</p>
+    </div>
+    <div class="pillar">
+      <div class="num">02</div>
+      <h3>European training rarely found in VET</h3>
+      <p>Service Innovation and Design at Laurea UAS (Finland), a European reference for Learning by Developing. Art &amp; Craft of Facilitating Learning Spaces programme at Kaospilot (Denmark). Human-Centered Design from IDEO + Acumen. Extraordinary End-of-Career Award, UNIR Master's degree.</p>
+    </div>
+    <div class="pillar">
+      <div class="num">03</div>
+      <h3>European outlook, island roots</h3>
+      <p>Working Paper accepted by Cedefop for 2028 on AI as cognitive infrastructure for equity in VET. Explicit commitment to territorial equity: Basic VET dropout rate 42.4%; Balearic early school leaving rate at 15.2% (2025).</p>
+    </div>
+  </div>
+
+  <blockquote>
+    "I am not asking for an exception: I am asking to be assessed, with the same criteria as any other applicant, on a track record that already performs, de facto, the functions described in the position profile."
+    <cite>Cover letter · 1 June 2026</cite>
+  </blockquote>
+</section>
+
+<!-- TRAJECTORIA -->
+<section id="trajectoria">
+  <div class="section-header">
+    <span class="section-num">02</span>
+    <h2>Current teaching track record</h2>
+  </div>
+  <p class="intro">
+    IES Marc Ferrer (Sant Francesc de Formentera). Interim civil servant teacher (body 0590). Five consecutive school years deploying entrepreneurship at the school and across the Balearic VET system.
+  </p>
+
+  <div class="cards">
+
+    <article class="card">
+      <div class="img" style="background-image: url('img/aula/aula1.jpg');"></div>
+      <div class="body">
+        <div class="tag">Entrepreneurship Hub · since 2022</div>
+        <h3>IES Marc Ferrer Entrepreneurship Hub</h3>
+        <p>Full coordination since launch: pedagogical design, budget management, A1-A4 participant lists, accounting ledger, financial reporting, and official Modernization Plan reports.</p>
+        <div class="links">
+          <a href="docs/05_aula/01_Memoria_Pla_Modernitzacio_2023.pdf" target="_blank" rel="noopener">Modernization Plan Report 2023</a>
+          <a href="docs/05_aula/02_Llibre_Comptable_2024.pdf" target="_blank" rel="noopener">Accounting ledger 2024</a>
+        </div>
+        <div class="meta-line">Official designation · 2023-2024 academic year and onwards</div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="img" style="background-image: url('img/hackathon/guanyadors.jpeg');"></div>
+      <div class="body">
+        <div class="tag">Innova FP 2026 Hackathon · CFINFP-IB</div>
+        <h3>Mentorship and reframing of business-VET challenges</h3>
+        <p>Mentor at the Innova FP 2026 Hackathon organised by CFINFP-IB. Reframed the ASINEM challenge with service-design methodology to ensure real co-creation between business and students. The IES Marc Ferrer team won one of the categories.</p>
+        <div class="links">
+          <a href="docs/06_hackathon/01_Repte_ASINEM.pdf" target="_blank" rel="noopener">ASINEM challenge (reframed V1)</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="img" style="background: linear-gradient(135deg, #8C0037 0%, #FF4F7A 100%); display: flex; align-items: center; justify-content: center; color: #F7EFE5; font-family: 'Caveat', cursive; font-size: 38px; padding: 30px; text-align: center;">Jornada<br>Emprèn FP · 18N</div>
+      <div class="body">
+        <div class="tag">Official commission CFINFP-IB · 18/11/2025</div>
+        <h3>Opening keynote at the Emprèn FP Conference</h3>
+        <p>Official commission from CFINFP-IB as opening keynote speaker. Annex III signed. Presentation "Carmen Moles" + complementary document for attending teachers. Invoices issued to CFINFP-IB (459 and 460).</p>
+        <div class="links">
+          <a href="docs/07_jornada/01_Annex_III_Signat.pdf" target="_blank" rel="noopener">Signed Annex III</a>
+          <a href="docs/07_jornada/03_Presentacio_Carmen_Moles.pdf" target="_blank" rel="noopener">Slide deck</a>
+          <a href="docs/07_jornada/04_Document_Complementari.pdf" target="_blank" rel="noopener">Companion document</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="img" style="background: linear-gradient(135deg, #1E4F8C 0%, #4A5A3A 100%); display: flex; align-items: center; justify-content: center; color: #FFCD7C; font-family: 'Caveat', cursive; font-size: 42px; padding: 30px; text-align: center;">IA aplicada a AdG<br>CFINFP-IB</div>
+      <div class="body">
+        <div class="tag">CFINFP-IB course · 35 teachers · 7 schools</div>
+        <h3>Design and delivery of the AI course for the Administration and Management VET family</h3>
+        <p>Full pedagogical design of the AI course applied to the Administration and Management VET family, for CFINFP-IB. Project rubric, satisfaction survey, interactive materials.</p>
+        <div class="links">
+          <a href="docs/09_curs_ia/01_Fitxa_Curs_CFINFP.pdf" target="_blank" rel="noopener">Official course profile</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="gallery">
+    <img src="img/aula/aula3.jpg" alt="Aula d'Emprenedoria IES Marc Ferrer" loading="lazy" />
+    <img src="img/aula/aula5.jpg" alt="Aula d'Emprenedoria IES Marc Ferrer" loading="lazy" />
+    <img src="img/hackathon/guanyadors.jpeg" alt="Equip guanyador Hackathon Innova FP 2026" loading="lazy" />
+  </div>
+</section>
+
+<!-- PROJECTES DE FINANÇAMENT -->
+<section id="projectes">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <h2>Funded projects with evidence</h2>
+  </div>
+  <p class="intro">
+    Securing, designing, and reporting on competitive funding calls: CaixaBank Dualiza, ESF+, Erasmus+ KA121-VET. All with signed paperwork, budgets, and impact indicators.
+  </p>
+
+  <div class="cards">
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">CaixaBank Dualiza · 7th call 2023-2024</div>
+        <h3>Triple A</h3>
+        <p><strong>IES Marc Ferrer: the only Balearic school selected.</strong> Ethical, critical approach to bringing the labour market closer to students. Press coverage in Periódico de Ibiza and Onda Cero.</p>
+        <div class="links">
+          <a href="https://docs.google.com/document/d/1lCiUI4kNKttw8eXOI9KH2km-r6caOOJJlFCWowkKJKw/edit?usp=drivesdk" target="_blank" rel="noopener">Application document</a>
+          <a href="https://docs.google.com/presentation/d/1x2DuZqQS4Y4zrxEMpPlnxfJ_F1qYrgsuPjFH1QaFyxA/edit?usp=drivesdk" target="_blank" rel="noopener">Project presentation</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">CaixaBank Dualiza · 2025-2026</div>
+        <h3>Open Lab Insular</h3>
+        <p>Self-led application for Formentera. Not selected, but with full technical documentation prepared: project detail, signed school endorsement, budget, SDG impact, and defence presentation.</p>
+        <div class="links">
+          <a href="docs/08_projectes/openlab/01_Detall_Projecte.pdf" target="_blank" rel="noopener">Project detail</a>
+          <a href="docs/08_projectes/openlab/04_Impacte_ODS.pdf" target="_blank" rel="noopener">SDG impact</a>
+          <a href="docs/08_projectes/openlab/05_Presentacio_Open_Lab.pdf" target="_blank" rel="noopener">Defence presentation</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">ESF+ · Balearic Route · active</div>
+        <h3>Balears Digital Boost</h3>
+        <p>ESF+ project in collaboration with Hackers for Inclusion. Annex 1 (application) and Annex 2 (project) signed. Letter of support from H4I signed. Timeline and indicators defined.</p>
+        <div class="links">
+          <a href="docs/08_projectes/bdb/02_Annex_1_Sollicitud_Signada.pdf" target="_blank" rel="noopener">Signed application</a>
+          <a href="docs/08_projectes/bdb/01_Annex_2_Projecte.pdf" target="_blank" rel="noopener">Annex 2 — Project</a>
+          <a href="docs/08_projectes/bdb/03_Carta_H4I_Signada.pdf" target="_blank" rel="noopener">Hackers for Inclusion letter</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">Erasmus+ KA121-VET · EuroFP Balears VI</div>
+        <h3>Job Shadowing — Nelson Mandela High School, Calgary</h3>
+        <p>Erasmus+ mobility to Canada (23-26 May 2023). Pedagogical job shadowing focused on curriculum innovation and career guidance. Published mobility report.</p>
+        <div class="links">
+          <a href="https://drive.google.com/file/d/1wYNoWmb_ZW5sO9XVLYtMu053dSkTFBkw/view?usp=drivesdk" target="_blank" rel="noopener">Mobility report</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <blockquote style="margin-top: 50px; margin-bottom: 30px;">
+    "Vocational education and training is key to building skills for the future of work in Europe."
+    <cite>Cedefop · European Centre for the Development of Vocational Training</cite>
+  </blockquote>
+
+  <div class="data-block">
+    <h3>Cedefop Working Paper 2028</h3>
+    <p style="font-family: 'Inter', sans-serif; font-size: 15px; color: var(--arena); max-width: 700px;">
+      Accepted by Cedefop for 2028: <em>AI as cognitive infrastructure for equity in VET</em>. Invited to present it at a high-level European event by Mr Michail Papazoglou, expert at Cedefop's Department for VET and Qualifications.
+    </p>
+    <div class="stats">
+      <div class="stat">
+        <div class="num">2028</div>
+        <div class="lbl">Cedefop Working Paper publication</div>
+      </div>
+      <div class="stat">
+        <div class="num">EU</div>
+        <div class="lbl">High-level European event</div>
+      </div>
+      <div class="stat">
+        <div class="num">VET+AI</div>
+        <div class="lbl">Equity as the structural axis</div>
+      </div>
+    </div>
+    <div style="margin-top: 24px; display: flex; gap: 14px; flex-wrap: wrap;">
+      <a class="btn" style="border-color: var(--lemon); color: var(--lemon);" href="docs/10_cedefop/01_Correu_Oficial_Cedefop_Papazoglou.pdf" target="_blank" rel="noopener">Papazoglou official email</a>
+      <a class="btn" style="border-color: var(--lemon); color: var(--lemon);" href="docs/10_cedefop/02_Abstract_EUSurvey.pdf" target="_blank" rel="noopener">EUSurvey abstract</a>
+    </div>
+  </div>
+</section>
+
+<!-- FORMACIÓ -->
+<section id="formacio">
+  <div class="section-header">
+    <span class="section-num">04</span>
+    <h2>Academic background</h2>
+  </div>
+  <p class="intro">
+    A concrete methodological toolkit — service design, design thinking, facilitation, PBL, agile methodologies — acquired at leading European institutions.
+  </p>
+
+  <div class="cards">
+    <article class="card">
+      <div class="body">
+        <div class="tag">Finland · Laurea UAS</div>
+        <h3>Service Innovation and Design</h3>
+        <p>Advanced studies at Laurea University of Applied Sciences, a European reference institution for <em>Learning by Developing</em>. Published author on the SID Laurea academic blog.</p>
+        <div class="links">
+          <a href="docs/04_formacio/01_MBA_Laurea_Certificat_Oficial.pdf" target="_blank" rel="noopener">Official certificate</a>
+          <a href="docs/04_formacio/02_MBA_Laurea_Notes.pdf" target="_blank" rel="noopener">Academic transcript</a>
+          <a href="https://sidlaurea.com/author/carmenmoles/" target="_blank" rel="noopener">SID Laurea articles</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">UNIR · Extraordinary Award</div>
+        <h3>Extraordinary End-of-Career Award</h3>
+        <p>Extraordinary End-of-Career Award, Master's in International Business Management, International University of La Rioja (UNIR).</p>
+        <div class="links">
+          <a href="docs/04_formacio/04_Premi_Extraordinari_Master_UNIR.pdf" target="_blank" rel="noopener">Award certificate</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">Denmark · Kaospilot</div>
+        <h3>Art &amp; Craft of Facilitating Learning Spaces</h3>
+        <p>Intensive professional programme at Kaospilot Aarhus (Denmark). Set, Hold &amp; Land Learning Arches. Facilitation and learning-design tools applied today with Formentera students.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">IDEO + Acumen</div>
+        <h3>Human-Centered Design</h3>
+        <p>Human-centered design course delivered by IDEO.org and Acumen. The same methodological logic underpins the entrepreneurship work at IES Marc Ferrer.</p>
+      </div>
+    </article>
+  </div>
+
+  <h3 style="margin-top: 50px; font-family: 'Inter', sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: .12em; color: var(--raspberry); border-bottom: 1px solid var(--line); padding-bottom: 10px;">Education &amp; career timeline</h3>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="year">2026</div>
+      <h4>Cedefop · Working Paper accepted for 2028</h4>
+      <p>AI as cognitive infrastructure for equity in VET.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2025-2026</div>
+      <h4>Innova FP Hackathon, Emprèn FP Conference, AI course</h4>
+      <p>Successive commissions from CFINFP-IB as keynote speaker, mentor and trainer.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2023-2024</div>
+      <h4>Triple A · CaixaBank Dualiza, 7th edition</h4>
+      <p>IES Marc Ferrer: only Balearic school selected. Onda Cero Ibiza & Formentera Award 2024.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2023</div>
+      <h4>Erasmus+ KA121-VET · Calgary</h4>
+      <p>Job shadowing at Nelson Mandela High School.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2022</div>
+      <h4>Joining IES Marc Ferrer</h4>
+      <p>Start of coordination of the Entrepreneurship Hub.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2016</div>
+      <h4>Kaospilot Aarhus</h4>
+      <p>Art &amp; Craft of Facilitating Learning Spaces. Global Service Jam Ibiza.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2015</div>
+      <h4>Laurea UAS · Finland</h4>
+      <p>Service Innovation and Design. Publications on the SID Laurea blog.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2014</div>
+      <h4>Co-coordination ACTITUD VOLPA · Entreculturas-AEXCID</h4>
+      <p>Systematisation of the Pedro Arrupe International Volunteer Programme.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2003-2014</div>
+      <h4>Management, consultancy and facilitation</h4>
+      <p>Colegio Mayor Padre Poveda, Institución Teresiana, Nationale-Nederlanden, Entreculturas Foundation, Xavier Network.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TRAJECTORIA PREVIA -->
+<section id="trajectoria-previa">
+  <div class="section-header">
+    <span class="section-num">05</span>
+    <h2>Previous experience</h2>
+  </div>
+  <p class="intro">
+    Eleven years of professional practice in management, consultancy and facilitation before joining the teaching body. All documented with appointments, employer certificates, and labour history.
+  </p>
+
+  <div class="cards">
+    <article class="card">
+      <div class="body">
+        <div class="tag">2008-2013</div>
+        <h3>Director · Colegio Mayor Padre Poveda</h3>
+        <p>Director of the university hall of residence of the Institución Teresiana in Madrid. Appointment letter and employer certificate attached.</p>
+        <div class="links">
+          <a href="docs/11_trajectoria/01_Nomenament.pdf" target="_blank" rel="noopener">Official appointment</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">2014 · AEXCID</div>
+        <h3>Co-coordination ACTITUD VOLPA · Entreculturas</h3>
+        <p>Systematisation and external evaluation of the Pedro Arrupe International Volunteer Programme, funded by the Extremadura Agency for Cooperation. Five previous years coordinating the programme.</p>
+        <div class="links">
+          <a href="docs/11_trajectoria/volpa_2014.pdf" target="_blank" rel="noopener">VOLPA 2014 systematisation (full PDF)</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">2021 · Institució Teresiana</div>
+        <h3>Facilitating a vision process using the Kaospilot method</h3>
+        <p>Design and facilitation of a strategic review process for the Institución Teresiana using Kaospilot structures.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="body">
+        <div class="tag">2015 · Ibiza</div>
+        <h3>Global Service Jam Ibiza · 2015 edition</h3>
+        <p>Organising the Ibiza edition of the Global Service Jam, an international 48-hour service-design event. Press coverage in Periódico de Ibiza.</p>
+        <div class="links">
+          <a href="https://www.periodicodeibiza.es/pitiusas/ibiza/2016/02/28/179126/ideas-abren-mente.html" target="_blank" rel="noopener">Periódico de Ibiza article</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="gallery">
+    <img src="img/jam/jam1.jpg" alt="Global Service Jam Eivissa 2015" loading="lazy" />
+    <img src="img/jam/jam2.jpg" alt="Global Service Jam Eivissa 2015" loading="lazy" />
+    <img src="img/jam/jam3.jpg" alt="Global Service Jam Eivissa 2015" loading="lazy" />
+  </div>
+</section>
+
+<!-- PREMSA I RECONEIXEMENT -->
+<section id="premsa">
+  <div class="section-header">
+    <span class="section-num">06</span>
+    <h2>Awards &amp; press</h2>
+  </div>
+  <p class="intro">
+    Awards and press coverage, with direct links to the original sources.
+  </p>
+
+  <ul class="press">
+    <li>
+      <span class="src">Own material · Genially</span>
+      <span class="ttl">Sample of interactive teaching material (Genially)</span>
+      <span class="date">online</span>
+      <a class="read" href="https://view.genially.com/601122f626279b0cfe3186ed" target="_blank" rel="noopener">View →</a>
+    </li>
+    <li>
+      <span class="src">Onda Cero · Award</span>
+      <span class="ttl">Onda Cero Ibiza & Formentera Award 2024 — IES Marc Ferrer (gala 19/04/2024)</span>
+      <span class="date">2024</span>
+      <a class="read" href="https://guiadelaradio.com/onda-cero-ibiza-y-formentera-entrega-sus-premios-anuales" target="_blank" rel="noopener">Read →</a>
+    </li>
+    <li>
+      <span class="src">Periódico de Ibiza</span>
+      <span class="ttl">"IES Marc Ferrer Formentera, the only Balearic school selected for the Dualiza call"</span>
+      <span class="date">28/02/2024</span>
+      <a class="read" href="https://www.periodicodeibiza.es/pitiusas/aldia/2024/02/28/2115071/ies-marc-ferrer-formentera-unico-seleccionado-baleares-para-convocatoria-dualiza.html" target="_blank" rel="noopener">Read →</a>
+    </li>
+    <li>
+      <span class="src">Onda Cero</span>
+      <span class="ttl">"IES Marc Ferrer Formentera works on a project that brings the labour market closer without losing its ethical and critical focus"</span>
+      <span class="date">29/02/2024</span>
+      <a class="read" href="https://www.ondacero.es/emisoras/baleares/ibiza/noticias/ies-marc-ferrer-formentera-trabaja-proyecto-que-acerca-mercado-laboral-perder-enfoque-etico-critico_2024022965e06bb129d814000165001a.html" target="_blank" rel="noopener">Read →</a>
+    </li>
+    <li>
+      <span class="src">SID Laurea · Academic blog</span>
+      <span class="ttl">Authored articles on the SID Laurea UAS programme blog</span>
+      <span class="date">Finland</span>
+      <a class="read" href="https://sidlaurea.com/author/carmenmoles/" target="_blank" rel="noopener">Read →</a>
+    </li>
+    <li>
+      <span class="src">SID Laurea</span>
+      <span class="ttl">"How might we design for change?" — Carmen Moles</span>
+      <span class="date">08/10/2015</span>
+      <a class="read" href="https://sidlaurea.com/2015/10/08/how-might-we-design-for-change/" target="_blank" rel="noopener">Read →</a>
+    </li>
+    <li>
+      <span class="src">Periódico de Ibiza</span>
+      <span class="ttl">"Ideas open the mind" — on Global Service Jam Ibiza</span>
+      <span class="date">28/02/2016</span>
+      <a class="read" href="https://www.periodicodeibiza.es/pitiusas/ibiza/2016/02/28/179126/ideas-abren-mente.html" target="_blank" rel="noopener">Read →</a>
+    </li>
+    <li>
+      <span class="src">Periódico de Ibiza</span>
+      <span class="ttl">"We have many gifts and strengths we're not even aware of" — coach interview</span>
+      <span class="date">06/09/2015</span>
+      <a class="read" href="https://www.periodicodeibiza.es/pitiusas/ibiza/2015/09/06/160936/tenemos-muchos-dones-fortalezas-que-siquiera-somos-conscientes.html" target="_blank" rel="noopener">Read →</a>
+    </li>
+    <li>
+      <span class="src">Periódico de Ibiza · Firma</span>
+      <span class="ttl">"Life and work: the challenge of integrating and reconciling" — opinion column</span>
+      <span class="date">16/08/2015</span>
+      <a class="read" href="https://www.periodicodeibiza.es/opinion/firmas-del-dia/2015/08/16/159324/vida-trabajo-reto-integrar-conciliar.html" target="_blank" rel="noopener">Read →</a>
+    </li>
+  </ul>
+</section>
+
+<!-- DOCUMENTACIÓ OFICIAL -->
+<section id="documents">
+  <div class="section-header">
+    <span class="section-num">07</span>
+    <h2>Official application documentation</h2>
+  </div>
+  <p class="intro">
+    All documents officially registered on Monday 1 June 2026. PDF format, accessible directly on this page.
+  </p>
+
+  <div class="doc-group">
+    <h3>Administrative application</h3>
+    <div class="doc-list">
+      <a href="docs/01_candidatura/03_Escrit_Registre_Entrada.pdf" target="_blank" rel="noopener">Signed registration document</a>
+      <a href="docs/01_candidatura/01_Full_de_Serveis.pdf" target="_blank" rel="noopener">Service record (31/05/2026)</a>
+      <a href="docs/01_candidatura/02_Fitxa_Placa_CEP400302-11.pdf" target="_blank" rel="noopener">Official position profile CEP400302-11</a>
+      <a href="docs/01_candidatura/05_Capturas_Tramit_PDF.pdf" target="_blank" rel="noopener">Online submission screenshots (incident log)</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>Report · CV · cover letter</h3>
+    <div class="doc-list">
+      <a href="docs/02_memoria/01_Memoria_ATD_CarmenMoles_CEP400302-11.pdf" target="_blank" rel="noopener">Official Report Annex 3</a>
+      <a href="docs/03_cv_carta/01_CV_Carmen_Moles_2026.pdf" target="_blank" rel="noopener">Full CV 2026</a>
+      <a href="docs/03_cv_carta/02_Carta_Motivacio_Carmen_Moles.pdf" target="_blank" rel="noopener">Cover letter</a>
+      <a href="docs/03_cv_carta/03_Llistat_Merits_Acreditats.pdf" target="_blank" rel="noopener">List of supporting credentials</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>Academic background</h3>
+    <div class="doc-list">
+      <a href="docs/04_formacio/01_MBA_Laurea_Certificat_Oficial.pdf" target="_blank" rel="noopener">MBA Laurea — official certificate</a>
+      <a href="docs/04_formacio/02_MBA_Laurea_Notes.pdf" target="_blank" rel="noopener">MBA Laurea — academic transcript</a>
+      <a href="docs/04_formacio/04_Premi_Extraordinari_Master_UNIR.pdf" target="_blank" rel="noopener">UNIR Master's Extraordinary Award</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>Entrepreneurship Hub · IES Marc Ferrer</h3>
+    <div class="doc-list">
+      <a href="docs/05_aula/01_Memoria_Pla_Modernitzacio_2023.pdf" target="_blank" rel="noopener">Modernization Plan Report 2023</a>
+      <a href="docs/05_aula/02_Llibre_Comptable_2024.pdf" target="_blank" rel="noopener">Accounting ledger 2024</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>Innova FP 2026 Hackathon</h3>
+    <div class="doc-list">
+      <a href="docs/06_hackathon/01_Repte_ASINEM.pdf" target="_blank" rel="noopener">ASINEM challenge (reframed)</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>Emprèn FP Conference · 18 November 2025</h3>
+    <div class="doc-list">
+      <a href="docs/07_jornada/01_Annex_III_Signat.pdf" target="_blank" rel="noopener">Signed Annex III</a>
+      <a href="docs/07_jornada/03_Presentacio_Carmen_Moles.pdf" target="_blank" rel="noopener">Keynote presentation</a>
+      <a href="docs/07_jornada/04_Document_Complementari.pdf" target="_blank" rel="noopener">Companion document</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>Funded projects</h3>
+    <div class="doc-list">
+      <a href="https://docs.google.com/document/d/1lCiUI4kNKttw8eXOI9KH2km-r6caOOJJlFCWowkKJKw/edit?usp=drivesdk" target="_blank" rel="noopener">Triple A — application</a>
+      <a href="https://docs.google.com/presentation/d/1x2DuZqQS4Y4zrxEMpPlnxfJ_F1qYrgsuPjFH1QaFyxA/edit?usp=drivesdk" target="_blank" rel="noopener">Triple A — presentation</a>
+      <a href="docs/08_projectes/openlab/01_Detall_Projecte.pdf" target="_blank" rel="noopener">Open Lab Insular — project detail</a>
+      <a href="docs/08_projectes/openlab/04_Impacte_ODS.pdf" target="_blank" rel="noopener">Open Lab Insular — SDG impact</a>
+      <a href="docs/08_projectes/openlab/05_Presentacio_Open_Lab.pdf" target="_blank" rel="noopener">Open Lab Insular — presentation</a>
+      <a href="docs/08_projectes/bdb/02_Annex_1_Sollicitud_Signada.pdf" target="_blank" rel="noopener">Balears Digital Boost — signed application</a>
+      <a href="docs/08_projectes/bdb/01_Annex_2_Projecte.pdf" target="_blank" rel="noopener">Balears Digital Boost — Annex 2 project</a>
+      <a href="docs/08_projectes/bdb/03_Carta_H4I_Signada.pdf" target="_blank" rel="noopener">Hackers for Inclusion letter</a>
+      <a href="https://drive.google.com/file/d/1wYNoWmb_ZW5sO9XVLYtMu053dSkTFBkw/view?usp=drivesdk" target="_blank" rel="noopener">Erasmus+ Calgary — mobility report</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>AI course · CFINFP-IB</h3>
+    <div class="doc-list">
+      <a href="docs/09_curs_ia/01_Fitxa_Curs_CFINFP.pdf" target="_blank" rel="noopener">Official course profile</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>Cedefop Working Paper 2028</h3>
+    <div class="doc-list">
+      <a href="docs/10_cedefop/01_Correu_Oficial_Cedefop_Papazoglou.pdf" target="_blank" rel="noopener">Papazoglou official email</a>
+      <a href="docs/10_cedefop/02_Abstract_EUSurvey.pdf" target="_blank" rel="noopener">EUSurvey abstract</a>
+    </div>
+  </div>
+
+  <div class="doc-group">
+    <h3>Previous experience</h3>
+    <div class="doc-list">
+      <a href="docs/11_trajectoria/01_Nomenament.pdf" target="_blank" rel="noopener">Colegio Mayor Padre Poveda appointment</a>
+      <a href="docs/11_trajectoria/volpa_2014.pdf" target="_blank" rel="noopener">VOLPA 2014 systematisation</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTE -->
+<section id="contacte" style="padding-bottom: 90px;">
+  <div class="section-header">
+    <span class="section-num">08</span>
+    <h2>Contact</h2>
+  </div>
+  <p class="intro">
+    I remain available to the Evaluation Committee for any clarification or oral defence.
+  </p>
+  <div class="pillars" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
+    <div class="pillar">
+      <h4 style="color: var(--raspberry); margin-bottom: 12px;">Email</h4>
+      <p><a href="mailto:lesmoes@gmail.com">lesmoes@gmail.com</a></p>
+    </div>
+    <div class="pillar">
+      <h4 style="color: var(--raspberry); margin-bottom: 12px;">Phone</h4>
+      <p>633 47 61 23</p>
+    </div>
+    <div class="pillar">
+      <h4 style="color: var(--raspberry); margin-bottom: 12px;">School</h4>
+      <p>IES Marc Ferrer<br>Sant Francesc de Formentera, Balearic Islands</p>
+    </div>
+    <div class="pillar">
+      <h4 style="color: var(--raspberry); margin-bottom: 12px;">ID</h4>
+      <p>DNI 74680372Q<br>NRP 7468037246I0590<br>Cos 0590</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div>
+      <h4>Application CEP400302-11</h4>
+      <p style="margin-top: 10px;">Secondment as Technical Teaching Advisor · Entrepreneurship area · CFINFP-IB.</p>
+      <p style="margin-top: 10px; font-size: 12.5px; opacity: .75;">BOIB no. 56, 2 May 2026. Call 17 ATD 26-27.</p>
+    </div>
+    <div>
+      <h4>Carmen Maria Moles Moles</h4>
+      <p style="margin-top: 10px;">VET teacher · IES Marc Ferrer (Formentera)</p>
+      <p style="margin-top: 10px;"><a href="mailto:lesmoes@gmail.com">lesmoes@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Legal framework</h4>
+      <p style="margin-top: 10px; font-size: 13px;">Article 90.2 of Law 1/2022 on education of the Balearic Islands.</p>
+      <p style="margin-top: 6px; font-size: 13px;">Instruction 7 of Annex 2, BOIB no. 56.</p>
+    </div>
+  </div>
+  <div class="credit">
+    © 2026 · Carmen Maria Moles Moles · All linked documents are digital copies of the signed originals. Page prepared for the public presentation of this application.
+  </div>
+</footer>
+
+</body>
+</html>
