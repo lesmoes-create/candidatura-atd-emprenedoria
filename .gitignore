@@ -2,3 +2,12 @@
 *.swp
 ~$*
 .~lock.*
+
+# Documents privats — contenen dades personals de tercers, NO publicar
+docs/05_aula/01_Memoria_Pla_Modernitzacio_2023.pdf
+docs/05_aula/02_Llibre_Comptable_2024.pdf
+docs/01_candidatura/05_Capturas_Tramit_PDF.pdf
+
+# Versions ES i EN pendents d'actualitzar amb dades correctes
+index-es.html
+index-en.html
